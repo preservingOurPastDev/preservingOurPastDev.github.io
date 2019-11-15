@@ -1,0 +1,84 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.nav-button {
+  padding-top: 60px !important;	
+}
+
+.nav-button-scroll {
+  padding-top: 20px !important;	
+}
+
+.nav-button:hover {
+  text-decoration: underline !important;
+  background-color: #FFF !important;
+}
+
+.gr-text {
+  /*background-color: #405749;*/
+  /* background-color: #0435B2; */
+  background-color: #36683bff;
+
+}
+
+.footer-style {
+  background-color: #333333;
+}
+
+.nav-bar {
+  background-color: #E5E5E5;
+}
+
+.nav-logo {
+  padding: 10px;
+}
+
+.nav-logo-small {
+  opacity: 0;
+  padding: 5px;
+  padding-left: 43px;
+  padding-top:13px;
+}
+
+.nav-logo-no-display {
+  display: none;
+}
+
+.fade-out {
+	animation: fadeOut ks; /* IE 10+, Fx 29+ */
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+.fade-in {
+	animation: fadeIn 2s; /* IE 10+, Fx 29+ */
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeOut {
+  0%   { 
+	  opacity: 1; 
+  	}
+  100% { 
+	  opacity: 0; 
+  }
+}
+
+  @-webkit-keyframes fadeIn {
+  0%   { 
+	  opacity: 0; 
+  	}
+  100% { 
+	  opacity: 1; 
+  }
+}

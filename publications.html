@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>POP</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="images/logos/finalLogo.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="images/logos/treeFull.png">
+<link rel="stylesheet" href="style.css">
+<style>
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/lake.jpg");
+  min-height: 100%;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar nav-bar w3-card" id="myNavbar">
+    <a href="./index.html">
+    	<img id="navLogo" class="nav-logo" src="images/logos/finalLogo.png" height="100px">
+    	<img id="navLogoSmall" class="nav-logo-small nav-logo-no-display" src="images/logos/tree.png" height="50px">
+    </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="./about.html" class="w3-bar-item w3-button nav-button">About</a>
+      <a href="./portfolio.html" class="w3-bar-item w3-button nav-button">Portfolio</a>
+      <a href="./news.html" class="w3-bar-item w3-button nav-button">News</a>
+      <a href="./publications.html" class="w3-bar-item w3-button nav-button">Publications</a>
+      <a href="./contact.html" class="w3-bar-item w3-button nav-button">Contact Us</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="./about.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="./Portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="./news.html" onclick="w3_close()" class="w3-bar-item w3-button">News</a>
+  <a href="./publications.html" onclick="w3_close()" class="w3-bar-item w3-button">Publications</a>
+  <a href="./contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact Us</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small gr-text">&nbspPublications&nbsp</span><br>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">POP Publications</h3>
+  <p class="w3-center w3-large">Coming Soon</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-64 footer-style">
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-text-green"></i>
+    <i class="fa fa-instagram w3-hover-text-green"></i>
+    <i class="fa fa-snapchat w3-hover-text-green"></i>
+    <i class="fa fa-pinterest-p w3-hover-text-green"></i>
+    <i class="fa fa-twitter w3-hover-text-green"></i>
+    <i class="fa fa-linkedin w3-hover-text-green"></i>
+  </div>
+  <p class="w3-hover-text-green">POP</p>
+  <p class="w3-hover-text-green">Contact Us</p>
+</footer>
+<script src="controls.js"></script>
+</body>
+</html>
+
